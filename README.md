@@ -1,6 +1,6 @@
-# TIFF Loader
+# TIFF Compare
 
-An app that loads and displays a TIFF image uncompressed
+An app that loads and displays an unmodified TIFF image and the image with various adjustments
 
 ## Project Setup
 

@@ -1,5 +1,7 @@
+// TODO: Fork the git repo to a TIFF-Compare instead of TIFF-Loader
+
 import { useState } from 'react'
-import DisplayTIF from './components/DisplayTIF'
+import TIFFCarousel from './components/TIFFCarousel'
 import FileInput from './components/FileInput'
 import CloseButton from './components/CloseButton'
 
@@ -21,7 +23,8 @@ function App() {
       }}
     >
       <div style={{ textAlignLast: 'center', margin: 'auto' }}>
-        {selectedFile && <DisplayTIF imageUrl={URL.createObjectURL(selectedFile)} />}
+        {selectedFile && <TIFFCarousel imageUrl={URL.createObjectURL(selectedFile)} />}
+
         <div style={{ paddingTop: '20px' }}>
           <FileInput onFileSelected={handleFileSelected} />
           <CloseButton />

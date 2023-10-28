@@ -59,11 +59,7 @@ function DisplayTIF({ imageUrl }) {
       })
   }, [imageUrl])
 
-  return (
-    <div>
-      <canvas ref={canvasRef} />
-    </div>
-  )
+  return <canvas ref={canvasRef} />
 }
 
 DisplayTIF.propTypes = {
