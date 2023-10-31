@@ -1,5 +1,3 @@
-// TODO: Fork the git repo to a TIFF-Compare instead of TIFF-Loader
-
 import { useState } from 'react'
 import TIFFCarousel from './components/TIFFCarousel'
 import FileInput from './components/FileInput'
